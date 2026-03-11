@@ -1,0 +1,118 @@
+{
+  "projectType": "api-service",
+  "projectName": "Ironbridge FC Backend API",
+  "projectDescription": "REST API backend for managing football club data including players, games, and milestones built with Symfony 7.3",
+  "theme": "palm",
+  "primaryColor": "#2d7d3f",
+  "lightColor": "#4caf50",
+  "darkColor": "#1b5e20",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/architecture",
+              "concepts/data-model",
+              "concepts/validation"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/environment",
+              "configuration/database",
+              "configuration/cors"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/setup",
+              "development/migrations",
+              "development/testing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api/overview",
+              "api/authentication",
+              "api/errors"
+            ]
+          },
+          {
+            "group": "Players",
+            "pages": [
+              "api/players/list",
+              "api/players/get",
+              "api/players/create",
+              "api/players/update",
+              "api/players/delete"
+            ]
+          },
+          {
+            "group": "Games",
+            "pages": [
+              "api/games/list",
+              "api/games/get",
+              "api/games/create",
+              "api/games/update",
+              "api/games/delete"
+            ]
+          },
+          {
+            "group": "Milestones",
+            "pages": [
+              "api/milestones/list",
+              "api/milestones/get",
+              "api/milestones/create",
+              "api/milestones/update",
+              "api/milestones/delete"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "RESTful API endpoints for players, games, and milestones",
+    "Built with Symfony 7.3 framework",
+    "Doctrine ORM with MySQL/MariaDB support",
+    "Request validation and serialization",
+    "CORS configuration for frontend integration",
+    "Database migrations support"
+  ],
+  "publicApiSurface": [
+    "GET /api/players - List all players",
+    "GET /api/players/{id} - Get player details",
+    "POST /api/players - Create new player",
+    "PUT/PATCH /api/players/{id} - Update player",
+    "DELETE /api/players/{id} - Delete player",
+    "GET /api/games - List all games",
+    "GET /api/games/{id} - Get game details",
+    "POST /api/games - Create new game",
+    "PUT/PATCH /api/games/{id} - Update game",
+    "DELETE /api/games/{id} - Delete game",
+    "GET /api/milestones - List all milestones",
+    "GET /api/milestones/{id} - Get milestone details",
+    "POST /api/milestones - Create new milestone",
+    "PUT/PATCH /api/milestones/{id} - Update milestone",
+    "DELETE /api/milestones/{id} - Delete milestone"
+  ]
+}
